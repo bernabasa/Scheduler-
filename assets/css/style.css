@@ -3,15 +3,15 @@ body {
     font-size: 16px;
     line-height: 1;
   
-    background: rgb(255,255,255);
-    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(77,77,77,1) 100%);
+    background: rgb(167, 57, 57);
+    background: linear-gradient(0deg, rgb(105, 93, 93) 0%, rgb(112, 60, 60) 100%);
   }
     
   textarea{
     background: transparent;
     border: none;
     resize: none;
-    color: #000000;
+    color: #750c0c;
     border-left: 1px solid black;
     padding: 10px;
   }
@@ -19,11 +19,11 @@ body {
   .jumbotron {
     text-align: center;
     /* background-color: transparent; */
-    background: rgb(34, 193, 195);
+    background: rgb(46, 49, 49);
     background: linear-gradient(180deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
-    color: black;
+    color: rgb(112, 18, 18);
     border-radius: 0;
-    border-bottom: 10px solid black;
+    border-bottom: 10px solid rgb(116, 66, 66);
   }
   
   .description{
@@ -32,7 +32,7 @@ body {
   
   .time-block{
     text-align: center;
-    border-bottom: 1px solid #000000;
+    border-bottom: 1px solid #865f5f;
     /* border-radius: 15px; */
     /* background-color: #d5a906; */
   }
@@ -45,7 +45,7 @@ body {
   
   .hour {
     /* background-color: #d5a906; */
-    background-color: #06d5d3;
+    background-color: #439632;
     color: white;
     border: 1px solid #000000;
     border-top: 1px solid ;
@@ -57,8 +57,8 @@ body {
   }
   
   .past {
-    background-color: #d3d3d3;
-    color: white;
+    background-color: #940b0b;
+    color: rgb(36, 28, 28);
   }
   
   .present {
@@ -73,10 +73,10 @@ body {
   
   .saveBtn {
     border-left: 1px solid black;
-    border-top-right-radius: 15px;
+    border-top-right-radius: 10px;
     border-bottom-right-radius: 15px;
-    background-color: #06AED5;
-    color: white;
+    background-color: #165664;
+    color: rgb(82, 19, 19);
   }
   
   .saveBtn i:hover {
@@ -85,7 +85,7 @@ body {
   }
   
   .clearBtn {
-    background: rgb(34,193,195);
+    background: rgb(117, 126, 126);
     background-image: linear-gradient(180deg, rgba(34,193,195,1) 0%, rgba(108,253,45,1) 100%);
     background-size: 1px 100px;
     background-position: 0 -10px;
