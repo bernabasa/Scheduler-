@@ -85,8 +85,8 @@ body {
   }
   
   .clearBtn {
-    background: rgb(117, 126, 126);
-    background-image: linear-gradient(180deg, rgba(34,193,195,1) 0%, rgba(108,253,45,1) 100%);
+    background: rgb(68, 110, 110);
+    background-image: linear-gradient(180deg, rgba(34,193,195,1) 0%, rgb(71, 117, 52) 100%);
     background-size: 1px 100px;
     background-position: 0 -10px;
     /* box-shadow: 3px 3px; */
