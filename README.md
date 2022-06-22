@@ -8,7 +8,7 @@ A website that will help ypu plan out your week.
  * JavaScript
  
  ## URL'S
-  * The built website : 
+  * The built website : https://bernabasa.github.io/Scheduler-/
 
   * The github url: https://github.com/bernabasa/Scheduler-
 ## Screenshots
