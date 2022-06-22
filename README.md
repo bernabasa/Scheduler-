@@ -11,3 +11,6 @@ A website that will help ypu plan out your week.
   * The built website : 
 
   * The github url: https://github.com/bernabasa/Scheduler-
+## Screenshots
+
+# ![](assets/images/schduler.png)
