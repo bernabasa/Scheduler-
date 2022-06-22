@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link 
+        rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css" 
+        integrity="sha512-UyNhw5RNpQaCai2EdC+Js0QL4RlVmiq41DkmCJsRV3ZxipG2L0HhTqIf/H9Hp8ez2EnFlkBnjRGJU2stW3Lj+w==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" 
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Scheduler</title>
+  </head>
+
+  <body>
+    
+    <header class="jumbotron">
+      <h1 class="display-3">Planner</h1>
+      <p class="lead">A planner to assist you through your work days.</p>
+      
+        <div class="row d-flex justify-content-center pt-3">    
+            <p id="currentDay" class="lead col-12"></p>
+            <!-- BUTTON TO CLEAR ALL FIELDS -->
+            <button id="clearFields" type="button" class="btn col-12 col-md-4 col-lg-2 clearBtn shadow-lg">Clear Your Day!</button>
+        </div>
+    </header>
+    
+    <!-- MAIN CONTAINER FOR TIMEBLOCKS -->
+    <main>
+        <div class="container bg-transparent pb-2">
+            <!-- Timeblocks go here -->
+
+            <!-- 9AM TIMEBLOCK -->
+            <div id="09" class="row time-div p-0">
+                <!-- leftside hour marker -->
+                <div class="col-2 col-md-1 hour d-flex align-items-center">9 am</div>
+                <!-- text area for tasks -->
+                <textarea class="col-8 col-md-10 time-block description form-control"></textarea>
+                <!-- save button and icon -->
+                <button class="col-2 col-md-1 saveBtn"><i class="far fa-save fa-lg"></i></button>
+            </div>
+
+            <!-- 10AM TIMEBLOCK -->
+            <div id="10" class="row time-div p-0">
+                <div class="col-2 col-md-1 hour d-flex align-items-center">10 am</div>
+                <textarea class="col-8 col-md-10 time-block description form-control"></textarea>
+                <button class="col-2 col-md-1 saveBtn"><i class="far fa-save fa-lg"></i></button>
+            </div>
+            
+            <!-- 11AM TIMEBLOCK -->
+            <div id="11" class="row time-div p-0">
+                <div class="col-2 col-md-1 hour d-flex align-items-center">11 am</div>
+                <textarea class="col-8 col-md-10 time-block description form-control"></textarea>
+                <button class="col-2 col-md-1 saveBtn"><i class="far fa-save fa-lg"></i></button>
+            </div>
+            
+            <!-- 12PM TIMEBLOCK -->
+            <div id="12" class="row time-div p-0">
+                <div class="col-2 col-md-1 hour d-flex align-items-center">12 pm</div>
+                <textarea class="col-8 col-md-10 time-block description form-control"></textarea>
+                <button class="col-2 col-md-1 saveBtn"><i class="far fa-save fa-lg"></i></button>
+            </div>
+            
+            <!-- 1PM TIMEBLOCK -->
+            <div id="13" class="row time-div p-0">
+                <div class="col-2 col-md-1 hour d-flex align-items-center">1 pm</div>
+                <textarea class="col-8 col-md-10 time-block description form-control"></textarea>
+                <button class="col-2 col-md-1 saveBtn"><i class="far fa-save fa-lg"></i></button>
+            </div>
+            
+            <!-- 2PM TIMEBLOCK -->
+            <div id="14" class="row time-div p-0">
+                <div class="col-2 col-md-1 hour d-flex align-items-center">2 pm</div>
+                <textarea class="col-8 col-md-10 time-block description form-control"></textarea>
+                <button class="col-2 col-md-1 saveBtn"><i class="far fa-save fa-lg"></i></button>
+            </div>
+            
+            <!-- 3PM TIMEBLOCK -->
+            <div id="15" class="row time-div p-0">
+                <div class="col-2 col-md-1 hour d-flex align-items-center">3 pm</div>
+                <textarea class="col-8 col-md-10 time-block description form-control"></textarea>
+                <button class="col-2 col-md-1 saveBtn"><i class="far fa-save fa-lg"></i></button>
+            </div>
+            
+            <!-- 4PM TIMEBLOCK -->
+            <div id="16" class="row time-div p-0">
+                <div class="col-2 col-md-1 hour d-flex align-items-center">4 pm</div>
+                <textarea class="col-8 col-md-10 time-block description form-control"></textarea>
+                <button class="col-2 col-md-1 saveBtn"><i class="far fa-save fa-lg"></i></button>
+            </div>
+            
+            <!-- 5PM TIMEBLOCK -->
+            <div id="17" class="row time-div p-0">
+                <div class="col-2 col-md-1 hour d-flex align-items-center">5 pm</div>
+                <textarea class="col-8 col-md-10 time-block description form-control"></textarea>
+                <button class="col-2 col-md-1 saveBtn"><i class="far fa-save fa-lg"></i></button>
+            </div>
+
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/jquery-ui-touch-punch@0.2.3/jquery.ui.touch-punch.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
